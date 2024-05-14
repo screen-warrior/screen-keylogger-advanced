@@ -95,9 +95,9 @@ class KeyloggerScreenshot:
 if __name__ == "__main__":
     # Update the following variables with your PostgreSQL connection details
     DB_HOST = "localhost"
-    DB_NAME = "data_logger"
-    DB_USER = "postgres"
-    DB_PASSWORD = "admin"
+    DB_NAME = "your_DB_Name"
+    DB_USER = "Your_DB_User"
+    DB_PASSWORD = "Your_DB_password"
 
     db_connection_string = f"host={DB_HOST} dbname={DB_NAME} user={DB_USER} password={DB_PASSWORD}"
 
